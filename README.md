@@ -1,5 +1,7 @@
 ## Adaptive Calibration: A Unified Conversion Framework of Spiking Neural Networks
 
+[[Paper]](https://arxiv.org/abs/2311.14265)
+
 ### Abstract
 Spiking Neural Networks (SNNs) have emerged as a promising energy-efficient alternative to traditional Artificial Neural Networks (ANNs). Despite this, bridging the performance gap with ANNs in practical scenarios remains a significant challenge. This paper focuses on addressing the dual objectives of enhancing the performance and efficiency of SNNs through the established SNN Calibration conversion framework. Inspired by the biological nervous system, we propose a novel **Adaptive-Firing Neuron Model (AdaFire)** that dynamically adjusts firing patterns across different layers, substantially reducing conversion errors within limited timesteps. Moreover, to meet our efficiency objectives, we propose two novel strategies: an **Sensitivity Spike Compression (SSC)** technique and an **Input-aware Adaptive Timesteps (IAT)** technique. These techniques synergistically reduce both energy consumption and latency during the conversion process, thereby enhancing the overall efficiency of SNNs. Extensive experiments demonstrate our approach outperforms state-of-the-art SNNs methods, showcasing superior performance and efficiency in 2D, 3D, and event-driven classification, as well as object detection and segmentation tasks. 
 
