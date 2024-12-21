@@ -13,7 +13,9 @@ Our "***Adaptive Calibration***" framework leverages biologically-inspired burst
 
 *Hardware implementation code will be available in subsequent works.
 
-![Main Figure](figures/main.png)
+<p align="center">
+<img src=https://github.com/user-attachments/assets/8f809915-5ed0-4a6a-a333-d540d22c8819 width="500">
+</p>
 
 
 ### Running the Code
