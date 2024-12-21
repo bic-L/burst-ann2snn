@@ -10,7 +10,8 @@ Our "***Adaptive Calibration***" framework leverages biologically-inspired burst
 - **Energy-efficient converted SNNs:** Delivers remarkable energy reductions across benchmark datasets (70.1% on CIFAR-10, 60.3% on CIFAR-100, and 43.1% on ImageNet) while preserving high accuracy.
 - **Comprehensive Tasks/Architecture Support:** Demonstrates exceptional versatility through extensive validation across diverse tasks (2D/3D classification, event-driven processing, object detection, and segmentation) and modern architectures (ResNet, VGG, and Vision Transformers).
 
-* Hardware implementation code will be available in subsequent works.
+
+*Hardware implementation code will be available in subsequent works.
 
 ![Main Figure](figures/main.png)
 
