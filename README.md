@@ -1,10 +1,14 @@
 ## Adaptive Calibration: A Unified Conversion Framework of Spiking Neural Networks
 
-[[Paper]](https://arxiv.org/abs/2311.14265)
+Codes and checkpoints will be updated SOON! [[Paper]](https://arxiv.org/abs/2311.14265)
 
-### Abstract
-Spiking Neural Networks (SNNs) have emerged as a promising energy-efficient alternative to traditional Artificial Neural Networks (ANNs). Despite this, bridging the performance gap with ANNs in practical scenarios remains a significant challenge. This paper focuses on addressing the dual objectives of enhancing the performance and efficiency of SNNs through the established SNN Calibration conversion framework. Inspired by the biological nervous system, we propose a novel **Adaptive-Firing Neuron Model (AdaFire)** that dynamically adjusts firing patterns across different layers, substantially reducing conversion errors within limited timesteps. Moreover, to meet our efficiency objectives, we propose two novel strategies: an **Sensitivity Spike Compression (SSC)** technique and an **Input-aware Adaptive Timesteps (IAT)** technique. These techniques synergistically reduce both energy consumption and latency during the conversion process, thereby enhancing the overall efficiency of SNNs. Extensive experiments demonstrate our approach outperforms state-of-the-art SNNs methods, showcasing superior performance and efficiency in 2D, 3D, and event-driven classification, as well as object detection and segmentation tasks. 
+### Key contributions
 
+Our "***Adaptive Calibration***" framework leverages biologically-inspired burst-firing mechanisms, already supported by commercial neuromorphic hardware like Intel's Loihi 2 and Synsense's Xylo. By developing a training-free optimization algorithm, we automatically determine optimal burst-firing configurations based on each layer's sensitivity characteristics,  improving both efficiency and performance. Key features includes:
+
+- **Training-free ANN-to-SNN Conversion:** Outperforms existing methods with minimal setup time (0.09 hours), eliminating the need for costly retraining while maintaining superior accuracy-energy balance.
+- **Energy-efficient converted SNNs:** Delivers remarkable energy reductions across benchmark datasets (70.1% on CIFAR-10, 60.3% on CIFAR-100, and 43.1% on ImageNet) while preserving high accuracy.
+- **Comprehensive Tasks/Architecture Support:** Demonstrates exceptional versatility through extensive validation across diverse tasks (2D/3D classification, event-driven processing, object detection, and segmentation) and modern architectures (ResNet, VGG, and Vision Transformers).
 
 ![Main Figure](figures/main.png)
 
