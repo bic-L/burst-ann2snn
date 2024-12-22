@@ -4,7 +4,7 @@ Codes and checkpoints will be updated SOON! [[Paper]](https://arxiv.org/abs/2311
 
 ### Key contributions
 
-Our "***Adaptive Calibration***" framework leverages biologically-inspired burst-firing mechanisms, already supported by commercial neuromorphic hardware like Intel's Loihi 2 and Synsense's Xylo. By developing a training-free optimization algorithm, we automatically determine optimal burst-firing configurations based on each layer's sensitivity characteristics,  improving both efficiency and performance. Key features includes:
+Our "***Adaptive Calibration***" framework leverages biologically-inspired burst-firing mechanisms, already supported by commercial neuromorphic hardware like Intel's Loihi 2 and Synsense's Xylo. By developing a training-free optimization algorithm, we automatically determine optimal burst-firing configurations based on each layer's sensitivity characteristics, improving both efficiency and performance. Key features include:
 
 - **Training-free ANN-to-SNN Conversion:** Outperforms existing methods with minimal setup time (0.09 hours), eliminating the need for costly retraining while maintaining superior accuracy-energy balance.
 - **Energy-efficient converted SNNs:** Delivers remarkable energy reductions across benchmark datasets (70.1% on CIFAR-10, 60.3% on CIFAR-100, and 43.1% on ImageNet) while preserving high accuracy.
