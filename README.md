@@ -1,6 +1,6 @@
 ## Adaptive Calibration: A Unified Conversion Framework of Spiking Neural Networks
 
-Codes and checkpoints will be updated SOON! [[Paper]](https://arxiv.org/abs/2311.14265)
+Codes and checkpoints will be updated SOON! [[Paper]](https://arxiv.org/pdf/2412.16219)
 
 ### Key contributions
 
