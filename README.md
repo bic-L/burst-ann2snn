@@ -3,6 +3,9 @@
 Codes and checkpoints will be updated SOON! [[Paper]](https://arxiv.org/pdf/2412.16219) [[Appendix]](https://github.com/user-attachments/files/18434508/_AAAI_25__Adaptive_Calibration_appendix.pdf)
 
 
+![aaai_poster_final](https://github.com/user-attachments/assets/5fa7ec16-9f30-4ac2-a0a9-d47ddc0f4408)
+
+
 ### Key contributions
 
 Our "***Adaptive Calibration***" framework leverages biologically-inspired burst-firing mechanisms, already supported by commercial neuromorphic hardware like Intel's Loihi 2 and Synsense's Xylo. By developing a training-free optimization algorithm, we automatically determine optimal burst-firing configurations based on each layer's sensitivity characteristics, improving both efficiency and performance. Key features include:
