@@ -15,8 +15,11 @@ Our "***Adaptive Calibration***" framework leverages biologically inspired burst
 - **Comprehensive Tasks/Architecture Support:** Demonstrates exceptional versatility through extensive validation across diverse tasks (2D/3D classification, event-driven processing, object detection, and segmentation) and modern architectures (ResNet, VGG, and Vision Transformers).
 
 The code adopts some implementation in the following repositories:
+
 3D Tasks: https://github.com/fxia22/pointnet.pytorch
+
 Object Detection and Semantic Segmentation(in the folder of tools and vedaseg): https://github.com/zju-bmi-lab/Fast-SNN
+
 Adaptive Timestep for SNN Inference: https://github.com/Intelligent-Computing-Lab-Yale/SEENN
 
 
