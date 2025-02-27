@@ -8,14 +8,17 @@ Checkpoints will be updated SOON! [[Paper]](https://arxiv.org/pdf/2412.16219) [[
 
 ### Key contributions
 
-Our "***Adaptive Calibration***" framework leverages biologically-inspired burst-firing mechanisms, already supported by commercial neuromorphic hardware like Intel's Loihi 2 and Synsense's Xylo. By developing a training-free optimization algorithm, we automatically determine optimal burst-firing configurations based on each layer's sensitivity characteristics, improving both efficiency and performance. Key features include:
+Our "***Adaptive Calibration***" framework leverages biologically inspired burst-firing mechanisms, already supported by commercial neuromorphic hardware like Intel's Loihi 2 and Synsense's Xylo. By developing a training-free optimization algorithm, we automatically determine optimal burst-firing configurations based on each layer's sensitivity characteristics, improving both efficiency and performance. Key features include:
 
 - **Training-free ANN-to-SNN Conversion:** Outperforms existing methods with minimal setup time (0.09 hours), eliminating the need for costly retraining while maintaining superior accuracy-energy balance.
 - **Energy-efficient converted SNNs:** Delivers remarkable energy reductions across benchmark datasets (70.1% on CIFAR-10, 60.3% on CIFAR-100, and 43.1% on ImageNet) while preserving high accuracy.
 - **Comprehensive Tasks/Architecture Support:** Demonstrates exceptional versatility through extensive validation across diverse tasks (2D/3D classification, event-driven processing, object detection, and segmentation) and modern architectures (ResNet, VGG, and Vision Transformers).
 
+The code adopts some implementation in the following repositories:
+3D Tasks: https://github.com/fxia22/pointnet.pytorch
+Object Detection and Semantic Segmentation(in the folder of tools and vedaseg): https://github.com/zju-bmi-lab/Fast-SNN
+Adaptive Timestep for SNN Inference: https://github.com/Intelligent-Computing-Lab-Yale/SEENN
 
-*Hardware implementation code will be available in subsequent works.
 
 <p align="center">
 <img src=https://github.com/user-attachments/assets/8f809915-5ed0-4a6a-a333-d540d22c8819 width="500">
