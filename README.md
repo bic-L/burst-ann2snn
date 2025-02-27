@@ -61,3 +61,5 @@ python convert_neuromorphic.py --dataset xxx --arch xxx --T 8 --calib light \
 #### 4. Adaptive Calibration with Input-Aware Adaptive Timestep:
 
 The code for input-aware Adaptive Timestep inference is provided in the static dataset codebase and can also be applied to other tasks.
+
+### TO-DO Main results and checkpoints
