@@ -30,7 +30,7 @@ Adaptive Timestep for SNN Inference: https://github.com/Intelligent-Computing-La
 
 ### Running the Code
 
-Our codebase follows the same file structure, taking the training and inference of the neuromorphic dataset as an example
+Our codebase follows the same file structure. Taking the training and inference of the neuromorphic dataset as an example:
 
 #### 1. Pre-training ANN on Neuromorphic Datasets:
 ```bash
