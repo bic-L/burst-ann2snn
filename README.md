@@ -15,13 +15,7 @@ Our "***Adaptive Calibration***" framework leverages biologically inspired burst
 - **Energy-efficient converted SNNs:** Delivers remarkable energy reductions across benchmark datasets (70.1% on CIFAR-10, 60.3% on CIFAR-100, and 43.1% on ImageNet) while preserving high accuracy.
 - **Comprehensive Tasks/Architecture Support:** Demonstrates exceptional versatility through extensive validation across diverse tasks (2D/3D classification, event-driven processing, object detection, and segmentation) and modern architectures (ResNet, VGG, and Vision Transformers).
 
-The code adopts some implementation in the following repositories:
 
-3D Tasks: https://github.com/fxia22/pointnet.pytorch
-
-Object Detection and Semantic Segmentation(in the folder of tools and vedaseg): https://github.com/zju-bmi-lab/Fast-SNN
-
-Adaptive Timestep for SNN Inference: https://github.com/Intelligent-Computing-Lab-Yale/SEENN
 
 
 <p align="center">
@@ -70,3 +64,9 @@ python convert_neuromorphic.py --dataset xxx --arch xxx --T 8 --calib light \
 The code for input-aware Adaptive Timestep inference is provided in the static dataset codebase and can also be applied to other tasks.
 
 ### TO-DO Main results and checkpoints
+
+The code adopts some implementation in the following repositories:
+
+3D Tasks: https://github.com/fxia22/pointnet.pytorch
+Object Detection and Semantic Segmentation: https://github.com/zju-bmi-lab/Fast-SNN (modifications in the folder of tools and vedaseg)
+Adaptive Timestep for SNN Inference: https://github.com/Intelligent-Computing-Lab-Yale/SEENN
