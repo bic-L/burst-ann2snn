@@ -65,6 +65,7 @@ The code for input-aware Adaptive Timestep inference is provided in the static d
 
 ### TO-DO Main results and checkpoints
 
+### Acknowledgement:
 The code adopts some implementation in the following repositories:
 
 3D Tasks: https://github.com/fxia22/pointnet.pytorch
