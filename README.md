@@ -69,5 +69,7 @@ The code for input-aware Adaptive Timestep inference is provided in the static d
 The code adopts some implementation in the following repositories:
 
 3D Tasks: https://github.com/fxia22/pointnet.pytorch
+
 Object Detection and Semantic Segmentation: https://github.com/zju-bmi-lab/Fast-SNN (modifications in the folder of tools and vedaseg)
+
 Adaptive Timestep for SNN Inference: https://github.com/Intelligent-Computing-Lab-Yale/SEENN
