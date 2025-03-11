@@ -1,0 +1,1 @@
+python train_classification.py --lr 0.0001 --dataset_type shapenet

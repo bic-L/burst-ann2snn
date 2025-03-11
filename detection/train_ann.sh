@@ -1,0 +1,1 @@
+python -m torch.distributed.launch --nproc_per_node=8 --master_port 12342 train_ann.py -d coco --cuda -v yolov2_tiny -ms --ema --sybn --batch_size 64
