@@ -1,7 +1,8 @@
 ## Adaptive Calibration: A Unified Conversion Framework of Spiking Neural Networks
 
-Checkpoints will be updated SOON! [[Paper]](https://arxiv.org/pdf/2412.16219) [[Appendix]](https://github.com/user-attachments/files/18434508/_AAAI_25__Adaptive_Calibration_appendix.pdf) [[Slides]](https://github.com/user-attachments/files/19058773/aaai_presentation_for_upload.pdf)
+ [[Paper]](https://arxiv.org/pdf/2412.16219) [[Appendix]](https://github.com/user-attachments/files/18434508/_AAAI_25__Adaptive_Calibration_appendix.pdf) [[Slides]](https://github.com/user-attachments/files/19058773/aaai_presentation_for_upload.pdf)
 
+Checkpoints will be attached upon request.
 
 
 ![aaai_poster_final](https://github.com/user-attachments/assets/5fa7ec16-9f30-4ac2-a0a9-d47ddc0f4408)
